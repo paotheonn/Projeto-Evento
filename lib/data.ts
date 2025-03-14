@@ -9,7 +9,7 @@ export interface Event {
   category: string
   price: number
   attendees: number
-  image?: string
+  image: string
 }
 
 export const events: Event[] = [
@@ -26,7 +26,8 @@ export const events: Event[] = [
     category: "Tecnologia",
     price: 299,
     attendees: 1250,
-    image: "/placeholder.svg?height=600&width=800",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Desafio_vaga-x9j0O2yDFvD5BH1SGmpW0Fm8QAAtNe.png?rect=27,233,345,133",
   },
   {
     id: "2",
@@ -41,7 +42,8 @@ export const events: Event[] = [
     category: "Design",
     price: 149,
     attendees: 45,
-    image: "/placeholder.svg?height=600&width=800",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Desafio_vaga-x9j0O2yDFvD5BH1SGmpW0Fm8QAAtNe.png?rect=373,233,345,133",
   },
   {
     id: "3",
@@ -56,7 +58,8 @@ export const events: Event[] = [
     category: "Networking",
     price: 0,
     attendees: 120,
-    image: "/placeholder.svg?height=600&width=800",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Desafio_vaga-x9j0O2yDFvD5BH1SGmpW0Fm8QAAtNe.png?rect=720,233,345,133",
   },
   {
     id: "4",
@@ -71,7 +74,8 @@ export const events: Event[] = [
     category: "Educação",
     price: 499,
     attendees: 30,
-    image: "/placeholder.svg?height=600&width=800",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Desafio_vaga-x9j0O2yDFvD5BH1SGmpW0Fm8QAAtNe.png?rect=27,649,345,133",
   },
   {
     id: "5",
@@ -86,7 +90,8 @@ export const events: Event[] = [
     category: "Negócios",
     price: 349,
     attendees: 200,
-    image: "/placeholder.svg?height=600&width=800",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Desafio_vaga-x9j0O2yDFvD5BH1SGmpW0Fm8QAAtNe.png?rect=373,649,345,133",
   },
   {
     id: "6",
@@ -101,7 +106,8 @@ export const events: Event[] = [
     category: "Saúde",
     price: 275,
     attendees: 150,
-    image: "/placeholder.svg?height=600&width=800",
+    image:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Desafio_vaga-x9j0O2yDFvD5BH1SGmpW0Fm8QAAtNe.png?rect=720,649,345,133",
   },
 ]
 

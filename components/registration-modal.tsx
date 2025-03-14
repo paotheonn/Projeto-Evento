@@ -31,7 +31,7 @@ export function RegistrationModal({ isOpen, onClose, eventTitle }: RegistrationM
 
   return (
     <Dialog open={isOpen} onOpenChange={handleClose}>
-      <DialogContent className="sm:max-w-md">
+      <DialogContent className="sm:max-w-md bg-white">
         <DialogHeader>
           {!isRegistered ? (
             <>
@@ -55,13 +55,15 @@ export function RegistrationModal({ isOpen, onClose, eventTitle }: RegistrationM
               <Button variant="outline" onClick={handleClose}>
                 Cancelar
               </Button>
-              <Button onClick={handleRegister}>Confirmar Inscrição</Button>
+              <Button onClick={handleRegister} className="bg-blue-600 hover:bg-blue-700">
+                Confirmar Inscrição
+              </Button>
             </div>
           </div>
         ) : (
           <div className="flex flex-col items-center py-6 space-y-4">
-            <div className="rounded-full bg-green-100 p-3 dark:bg-green-900">
-              <Check className="h-6 w-6 text-green-600 dark:text-green-300" />
+            <div className="rounded-full bg-green-100 p-3">
+              <Check className="h-6 w-6 text-green-600" />
             </div>
             <div className="text-center space-y-2">
               <p className="text-xl font-medium">Tudo pronto!</p>
@@ -72,7 +74,7 @@ export function RegistrationModal({ isOpen, onClose, eventTitle }: RegistrationM
                 Um e-mail de confirmação foi enviado para o seu endereço de e-mail cadastrado.
               </p>
             </div>
-            <Button onClick={handleClose} className="mt-4">
+            <Button onClick={handleClose} className="mt-4 bg-blue-600 hover:bg-blue-700">
               Fechar
             </Button>
           </div>
