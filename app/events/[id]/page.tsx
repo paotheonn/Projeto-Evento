@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, use } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { Calendar, Clock, MapPin, Users, ArrowLeft } from "lucide-react"
@@ -17,9 +17,11 @@ const updateYearTo2025 = (dateString: string) => {
   return date
 }
 
-export default function EventPage({ params }: { params: { id: string } }) {
+export default function EventPage({ params }: { params: Promise<{ id: string }> }) {
+  // Usar React.use para desempacotar os parâmetros
+  const resolvedParams = use(params)
   const [showModal, setShowModal] = useState(false)
-  const event = events.find((e) => e.id === params.id)
+  const event = events.find((e) => e.id === resolvedParams.id)
 
   if (!event) {
     return (
