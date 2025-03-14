@@ -132,9 +132,6 @@ export default function EventPage({ params }: { params: Promise<{ id: string }> 
 
         <RegistrationModal isOpen={showModal} onClose={() => setShowModal(false)} eventTitle={event.title} />
       </div>
-      <footer className="border-t py-4 bg-white text-center text-sm text-muted-foreground">
-        © 2024 EventHub. Todos os direitos reservados.
-      </footer>
     </>
   )
 }

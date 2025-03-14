@@ -113,9 +113,6 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <footer className="border-t py-4 bg-white text-center text-sm text-muted-foreground">
-        © 2024 EventHub. Todos os direitos reservados.
-      </footer>
     </>
   )
 }
