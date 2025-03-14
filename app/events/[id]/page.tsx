@@ -9,6 +9,12 @@ import { Card, CardContent } from "@/components/ui/card"
 import { events } from "@/lib/data"
 import { RegistrationModal } from "@/components/registration-modal"
 
+export async function generateStaticParams() {
+  return events.map((event) => ({
+    id: event.id,
+  }))
+}
+
 export default function EventPage({ params }: { params: { id: string } }) {
   const [showModal, setShowModal] = useState(false)
   const event = events.find((e) => e.id === params.id)
