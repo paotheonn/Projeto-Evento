@@ -5,6 +5,7 @@ Este projeto foi desenvolvido como parte do processo de candidatura para uma vag
 ## Instalação
 
 > npm install --legacy-peer-deps
+
 > npm run dev
 
 ## Prototipagem
