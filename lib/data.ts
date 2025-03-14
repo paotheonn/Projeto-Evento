@@ -27,7 +27,7 @@ export const events: Event[] = [
     price: 299,
     attendees: 1250,
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Desafio_vaga-x9j0O2yDFvD5BH1SGmpW0Fm8QAAtNe.png?rect=27,233,345,133",
+      "https://www.icc.fiocruz.br/wp-content/uploads/2024/05/speaker-giving-talk-scientific-conference-audience-conference-hall-business-entrepreneurship-concept.jpg?rect=27,233,345,133",
   },
   {
     id: "2",
@@ -43,7 +43,7 @@ export const events: Event[] = [
     price: 149,
     attendees: 45,
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Desafio_vaga-x9j0O2yDFvD5BH1SGmpW0Fm8QAAtNe.png?rect=373,233,345,133",
+      "https://plenusvita.com.br/wp-content/uploads/2016/12/plenus-vita-palestras-1.jpg?rect=373,233,345,133",
   },
   {
     id: "3",
@@ -59,7 +59,7 @@ export const events: Event[] = [
     price: 0,
     attendees: 120,
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Desafio_vaga-x9j0O2yDFvD5BH1SGmpW0Fm8QAAtNe.png?rect=720,233,345,133",
+      "https://via.ufsc.br/wp-content/uploads/2019/03/rawpixel-653764-unsplash-1-980x370.jpg?rect=720,233,345,133",
   },
   {
     id: "4",
@@ -75,7 +75,7 @@ export const events: Event[] = [
     price: 499,
     attendees: 30,
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Desafio_vaga-x9j0O2yDFvD5BH1SGmpW0Fm8QAAtNe.png?rect=27,649,345,133",
+      "https://coursereport-s3-production.global.ssl.fastly.net/rich/rich_files/rich_files/3721/s1200/dev-bootcamp-alternatives-austin.png?rect=27,649,345,133",
   },
   {
     id: "5",
@@ -91,7 +91,7 @@ export const events: Event[] = [
     price: 349,
     attendees: 200,
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Desafio_vaga-x9j0O2yDFvD5BH1SGmpW0Fm8QAAtNe.png?rect=373,649,345,133",
+      "https://miro.medium.com/v2/resize:fit:537/1*ho9zRmK3wnQPb0Ftp8NYlg.jpeg?rect=373,649,345,133",
   },
   {
     id: "6",
@@ -107,7 +107,7 @@ export const events: Event[] = [
     price: 275,
     attendees: 150,
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Desafio_vaga-x9j0O2yDFvD5BH1SGmpW0Fm8QAAtNe.png?rect=720,649,345,133",
+      "https://img.buzzfeed.com/buzzfeed-static/static/2015-10/14/17/enhanced/webdr13/original-10716-1444858236-11.jpg?rect=720,649,345,133",
   },
 ]
 

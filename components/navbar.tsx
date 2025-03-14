@@ -33,7 +33,7 @@ export default function Navbar() {
                 <DropdownMenuTrigger asChild>
                   <Button variant="ghost" className="relative h-8 w-8 rounded-full">
                     <Avatar className="h-8 w-8">
-                      <AvatarImage src="/placeholder.svg?height=32&width=32" alt="Gabriel Mesquita" />
+                      <AvatarImage src="/gabriel-profile.jpg" alt="Gabriel Mesquita" />
                       <AvatarFallback>GM</AvatarFallback>
                     </Avatar>
                   </Button>
@@ -76,7 +76,7 @@ export default function Navbar() {
             <div className="px-3 py-2">
               <div className="flex items-center">
                 <Avatar className="h-6 w-6 mr-2">
-                  <AvatarImage src="/placeholder.svg?height=24&width=24" alt="Gabriel Mesquita" />
+                  <AvatarImage src="/gabriel-profile.jpg" alt="Gabriel Mesquita" />
                   <AvatarFallback>GM</AvatarFallback>
                 </Avatar>
                 <div className="font-medium">Gabriel Mesquita</div>
