@@ -2,6 +2,10 @@
 
 Este projeto foi desenvolvido como parte do processo de candidatura para uma vaga de estágio.
 
+## Instalação
+
+> npm install --legacy-peer-deps
+> npm run dev
 
 ## Prototipagem
 
