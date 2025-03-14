@@ -29,7 +29,6 @@ export default function Navbar() {
 
           <div className="flex items-center">
             <div className="flex items-center gap-2">
-              <span className="text-sm hidden md:inline-block">Gabriel Mesquita</span>
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <Button variant="ghost" className="relative h-8 w-8 rounded-full">
@@ -54,14 +53,11 @@ export default function Navbar() {
                   <DropdownMenuItem>Sair</DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
+              <span className="text-sm hidden md:inline-block">Gabriel Mesquita</span>
             </div>
           </div>
 
           <div className="flex md:hidden items-center gap-4">
-            <Avatar className="h-8 w-8 mr-2">
-              <AvatarImage src="/placeholder.svg?height=32&width=32" alt="Gabriel Mesquita" />
-              <AvatarFallback>GM</AvatarFallback>
-            </Avatar>
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="inline-flex items-center justify-center p-2 rounded-md hover:bg-muted transition-colors"
@@ -83,6 +79,10 @@ export default function Navbar() {
           <div className="px-2 pt-2 pb-3 space-y-3 border-t">
             <div className="px-3 py-2">
               <div className="flex items-center">
+                <Avatar className="h-6 w-6 mr-2">
+                  <AvatarImage src="/placeholder.svg?height=24&width=24" alt="Gabriel Mesquita" />
+                  <AvatarFallback>GM</AvatarFallback>
+                </Avatar>
                 <div className="font-medium">Gabriel Mesquita</div>
               </div>
             </div>

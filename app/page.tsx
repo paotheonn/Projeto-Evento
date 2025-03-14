@@ -18,7 +18,7 @@ const updateYearTo2025 = (dateString: string) => {
 }
 
 export default function Home() {
-  const [location] = useState("Caruaru, Pernambuco, Brazil")
+  const [location] = useState("Caruaru, Pernambuco, Brasil")
   const [selectedCategories, setSelectedCategories] = useState<string[]>([])
 
   // Obter todas as categorias únicas
