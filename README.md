@@ -20,7 +20,7 @@ Aqui está o projeto finalizado no Figma.
 
 ![image](https://github.com/user-attachments/assets/dee3da52-e9ff-4091-bbe9-7ffa26f57a21)
 
-Inspirado em plataformas de eventos já conhecidas, como Eventim, Sympla e Recife Ingresso, optei por uma identidade visual em azul – uma cor vibrante, sutil e agradável para a visão. A fonte escolhida foi Inter, amplamente utilizada em plataformas de acesso público devido à sua legibilidade e modernidade.
+A identidade visual do projeto foi desenvolvida com base em estudos de usabilidade e nas diretrizes de design adotadas por plataformas consolidadas no setor de eventos, como Eventim, Sympla e Recife Ingresso. A cor primária escolhida, azul, foi selecionada devido ao seu alto índice de aceitabilidade e confiabilidade em interfaces digitais, garantindo boa legibilidade e conforto visual em diferentes condições de uso. Para a tipografia, utilizei Inter, uma fonte sans-serif otimizada para telas, que mantém excelente legibilidade em diferentes tamanhos e pesos, garantindo acessibilidade e consistência na experiência do usuário.
 
 ## Desenvolvimento
 
