@@ -37,3 +37,7 @@ Tecnologias utilizadas:
 Você pode conferir o design no Figma através do link:
 
 🔗 https://www.figma.com/design/MamL9W4uG0UCjGM0OpPKFr/Desafio-vaga?node-id=6-6&t=ZhOwvY6l5Qfi1otc-1
+
+## Deploy no vercel
+
+🔗 https://projeto-evento-five.vercel.app
